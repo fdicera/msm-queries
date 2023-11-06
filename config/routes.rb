@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get("/directors/youngest", { :controller => "directors", :action => "young" })
 
    # add oldest director page
-   get("/directors/oldest", { :controller => "directors", :action => "old" })
+   get("/directors/eldest", { :controller => "directors", :action => "old" })
 
   # name of table making
   get("/directors", { :controller => "directors", :action => "index" })
